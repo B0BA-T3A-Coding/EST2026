@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Helio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar-default my_nav_bar">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Helio - Cognitive Load Schedule Balancer</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+      </ul>
+    
+ </div>
+</nav>
+ 
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Welcome to Helio!</h1>
+    <p>Analyze your workload and prevent burnout with human insights.</p>
+    <button id="connect-calendar">Connect Google Calendar</button>
+  </header>
+
+  <!-- Analysis Section -->
+  <section class="analysis">
+    <h2>Your Burnout Report</h2>
+    <div id="report">
+      <!-- Report will appear here -->
+      <p>Click "Analyze My Calendar" to see your burnout score.</p>
+    </div>
+    <button id="analyze-button">Analyze My Calendar</button>
+  </section>
+
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
